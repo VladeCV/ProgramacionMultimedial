@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    background-color:lavender;
+}
+input[type="text"],input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin: 5px auto;
+    
+}
+/*header{
+    border-bottom: 2px solid;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+
+}*/
+
+.header img {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+  
+.header h1 {
+    border-bottom: 2px solid;
+    text-align: left;
+    top: 18px;
+    left: 20px;
+}
+input[type="submit"]{
+    padding: 10px;
+    width: 80px;
+    border: 2px solid blue;
+    margin: 10px auto;
+    margin-top: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
